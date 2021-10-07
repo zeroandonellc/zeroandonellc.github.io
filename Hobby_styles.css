@@ -1,0 +1,93 @@
+/*
+This document defines the styling of Hobby.html.
+*/
+
+body {
+    background-color: gray;
+    font-family:cursive;
+}
+
+header {
+    text-align: center;
+    height: 110px;
+    margin-bottom: 75px;
+}
+
+header h1 {
+    background-color: black;
+    color: white;
+    border-bottom-style: solid;
+    border-width: 20px;
+    border-color: black;
+}
+
+header h3 {
+    line-height: 35px;
+    background-color: white;
+}
+
+header h2 {
+    color: white;
+    border-style: solid;
+    line-height: 40px;
+}
+
+div#Crafting {
+    float: left;
+    height: 210px;
+    margin: 5px;
+    background-color: hotpink;
+    border-style: solid;
+    border-width: 15px;
+    border-color: hotpink;
+    width: 100%;
+}
+
+div#Painting {
+    float: left;
+    height: 210px;
+    margin: 5px;
+    background-color: deeppink;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 15px;
+    border-color: deeppink;
+    width: 100%;
+}
+
+div#Landscaping {
+    float: left;
+    height: 210px;
+    margin: 5px;
+    background-color: crimson;
+    border-style: solid;
+    border-width: 15px;
+    border-color: crimson;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    height: 15px;
+    clear: left;
+    padding-top: 30px;
+    color: white;
+}
+
+div#Crafting > img {
+height: 200px;
+float: left;
+padding: 5px;
+}
+
+div#Painting img {
+height: 200px;
+float: left;
+padding: 5px;
+}
+
+div#Landscaping img {
+height: 200px;
+float: left;
+padding: 5px;
+}
